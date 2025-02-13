@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Что будем искать?</h1>
+  <div id="paragraph">
+    <select class="input" name="select" id="select" placeholder="Выберите*" required >
+      <option value="one">Планеты</option>
+      <option value="two">Фильмы</option>
+      <option value="three">Люди</option>
+      <option value="four">Космические корабли</option>
+      <option value="five">Транспортные средства</option>
+    </select>
+    <input id="inputNumber" class="input" type="number" required max="10" min="1" value="1">
+    <button id="submitButton" class="button" type="submit">Поиск</button>
+  </div>
+  <p id="result"></p>
+  <p id="error"></p>
+  <p id="finally"></p>
+  <script src="/script.js"></script>
+</body>
+</html>
